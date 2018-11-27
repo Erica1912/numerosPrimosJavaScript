@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+</head>
+<body>
+    <script>
+        
+        var numPrimo = 100;
+        var res, a, c;
+        var primo = [];
+        
+        for (var i = 2; i < numPrimo; i++) {
+            var esPrimo = true;
+            for(var n=2; n < i; n++) {                                                
+                if(i%n === 0){
+                    esPrimo = false;
+                    break;
+                }
+            }
+            if(esPrimo) {
+                console.log(i);
+            }
+        }
+        
+        
+
+    
+
+        
+
+    </script>
+</body>
+</html>
